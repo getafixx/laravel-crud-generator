@@ -1,0 +1,23 @@
+{
+    "name": "getafixx/laravel-crud-generator",
+    "description": "php artisan command to generate fully working crud with grid paginated server side only by having database tables",
+    "license": "MIT",
+    "authors": [{
+            "name": "Alfredo Aguirre",
+            "email": "alfrednx@gmail.com"
+        },
+        {
+            "name": "Justin King",
+            "email": "getafixx149s@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "laravel/framework": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CrudGenerator\\": "src/"
+        }
+    }
+}
